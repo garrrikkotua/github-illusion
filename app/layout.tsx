@@ -59,6 +59,12 @@ export default function RootLayout({
               <p>OctoArt</p>
             </Link>
             <div className="flex items-center space-x-4">
+              <Link
+                href="/gallery"
+                className="text-violet-400 hover:text-violet-600"
+              >
+                Gallery
+              </Link>
               <a
                 href="https://github.com/garrrikkotua/octoart"
                 target="_blank"
