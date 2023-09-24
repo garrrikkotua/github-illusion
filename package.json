@@ -23,6 +23,7 @@
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "lucide-react": "^0.279.0",
+    "nanoid": "^5.0.1",
     "next": "canary",
     "postcss": "8.4.30",
     "promptmaker": "^1.1.0",
