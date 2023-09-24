@@ -9,18 +9,17 @@
 
 <p align="center">
   <a href="https://twitter.com/garrrikkotua">
-    <img src="https://img.shields.io/twitter/follow/garrrikkotua?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Igor Kotua Twitter follower count" />
+    <img src="https://img.shields.io/twitter/follow/garrrikkotua?style=flat&label=garrrikkotua&logo=twitter&color=0bf&logoColor=fff" alt="Igor Kotua Twitter follower count" />
   </a>
   <a href="https://github.com/garrrikkotua/octoart">
-    <img src="https://img.shields.io/github/stars/garrrikkotua/octoart?label=garrrikkotua%octoart" alt="OctoArt repo star count" />
+    <img src="https://img.shields.io/github/stars/garrrikkotua/octoart?label=garrrikkotua%2Foctoart" alt="OctoArt repo star count" />
   </a>
 </p>
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#author"><strong>Author</strong></a>
+  <a href="#tech-stack"><strong>Tech Stack</strong></a> · 
+  <a href="#author"><strong>Author</strong></a> ·
   <a href="#credits"><strong>Credits</strong></a>
 </p>
 <br/>
