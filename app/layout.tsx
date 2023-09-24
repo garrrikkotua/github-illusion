@@ -20,10 +20,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Spirals",
+  title: "OctoArt",
   description:
-    "Generate beautiful AI spiral art with one click. Powered by Vercel and Replicate.",
-  metadataBase: new URL("https://spirals.vercel.app"),
+    "Generate beautiful GitHub octocat art with one click. Promote open-source!",
+  metadataBase: new URL("https://octoart.vercel.app"),
 };
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(clash.variable, inter.variable)}>
         <Toaster />
-        <div className="fixed h-screen w-full bg-gradient-to-br from-violet-100 via-teal-50 to-amber-100" />
+        <div className="fixed h-screen w-full bg-gradient-to-br from-purple-100 via-slate-50 to-violet-100" />
         <div
           className={`fixed top-0 w-full ${
             scrolled
@@ -45,39 +45,20 @@ export default function RootLayout({
           } z-30 transition-all`}
         >
           <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between xl:mx-auto">
-            <Link href="/" className="flex items-center font-display text-2xl">
+            <Link
+              href="/"
+              className="mt-8 flex items-center font-display text-2xl"
+            >
               <Image
                 src="/logo.png"
-                alt="Logo image of a chat bubble"
-                width="30"
-                height="30"
+                alt="Logo image of OctoArt"
+                width="100"
+                height="100"
                 className="mr-2 rounded-sm"
               ></Image>
-              <p>Spirals</p>
+              <p>OctoArt</p>
             </Link>
             <div className="flex items-center space-x-4">
-              <a
-                href="https://vercel.com/templates/next.js/spirals"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group hidden max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-3 py-1.5 text-sm text-white transition-colors hover:bg-white hover:text-black sm:flex"
-              >
-                <svg
-                  className="h-4 w-4 group-hover:text-black"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 4L20 20H4L12 4Z"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                <p>Deploy to Vercel</p>
-              </a>
               <a
                 href="https://vercel.com/templates/next.js/spirals"
                 target="_blank"
@@ -117,18 +98,9 @@ export default function RootLayout({
               target="_blank"
               rel="noopener noreferrer"
             >
-              Steven Tey
+              Igor Kotua
             </a>
           </p>
-          <a
-            href="https://www.buymeacoffee.com/steventey"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-auto mt-2 flex max-w-fit items-center justify-center space-x-2 rounded-lg border border-gray-200 bg-white px-6 py-2 transition-all duration-75 hover:scale-105"
-          >
-            <BuyMeACoffee className="h-6 w-6" />
-            <p className="font-medium text-gray-600">Buy me a coffee</p>
-          </a>
         </div>
         <Analytics />
       </body>

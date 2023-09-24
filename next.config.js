@@ -5,6 +5,7 @@ const nextConfig = {
   },
   images: {
     domains: [
+      "w3hp0wwfpdgpzwdt.public.blob.vercel-storage.com",
       "xd2kcvzsdpeyx1gu.public.blob.vercel-storage.com",
       "replicate.delivery",
     ],
@@ -16,11 +17,7 @@ const nextConfig = {
         destination: "https://github.com/steven-tey/spirals",
         permanent: false,
       },
-      {
-        source: "/deploy",
-        destination: "https://vercel.com/templates/next.js/spirals",
-        permanent: false,
-      },
+     
       {
         source: "/t",
         destination: "/",

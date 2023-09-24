@@ -33,7 +33,7 @@ export async function generate(form: FormData) {
         "75d51a73fce3c00de31ed9ab4358c73e8fc0f627dc8ce975818e653317cb919b",
       input: {
         prompt,
-        qr_code_content: "https://spirals.vercel.app",
+        qr_code_content: "https://octoart.vercel.app",
         image: patternUrl,
         controlnet_conditioning_scale: 1,
         qrcode_background: "white",
