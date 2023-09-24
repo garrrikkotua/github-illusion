@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { Github, BuyMeACoffee } from "@/components/icons";
+import { Github } from "@/components/icons";
 import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from "sonner";
 
@@ -60,24 +60,7 @@ export default function RootLayout({
             </Link>
             <div className="flex items-center space-x-4">
               <a
-                href="https://vercel.com/templates/next.js/spirals"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="sm:hidden"
-              >
-                <svg
-                  width="1155"
-                  height="1000"
-                  viewBox="0 0 1155 1000"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                >
-                  <path d="M577.344 0L1154.69 1000H0L577.344 0Z" fill="black" />
-                </svg>
-              </a>
-              <a
-                href="https://github.com/steven-tey/spirals"
+                href="https://github.com/garrrikkotua/octoart"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -94,11 +77,22 @@ export default function RootLayout({
             A project by{" "}
             <a
               className="font-semibold text-gray-600 underline-offset-4 transition-colors hover:underline"
-              href="https://twitter.com/steventey"
+              href="https://twitter.com/garrrikkotua"
               target="_blank"
               rel="noopener noreferrer"
             >
               Igor Kotua
+            </a>
+          </p>
+          <p>
+            Subscribe to my{" "}
+            <a
+              className="font-semibold text-violet-500 underline-offset-4 transition-colors hover:underline"
+              href="https://stargazerweekly.beehiiv.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              newsletter
             </a>
           </p>
         </div>

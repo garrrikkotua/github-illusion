@@ -15,9 +15,9 @@ export async function generateMetadata({
     return;
   }
 
-  const title = `Spirals: ${data.prompt}`;
-  const description = `A spiral generated from the prompt: ${data.prompt}`;
-  const image = data.image || "https://spirals.vercel.app/opengraph-image.png";
+  const title = `OctoArt: ${data.prompt}`;
+  const description = `An octo art generated from the prompt: ${data.prompt}`;
+  const image = data.image || "https://octoart.vercel.app/opengraph-image.png";
 
   return {
     title,
@@ -30,7 +30,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      creator: "@steventey",
+      creator: "@garrrikkotua",
     },
   };
 }

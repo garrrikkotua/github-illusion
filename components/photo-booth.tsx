@@ -47,7 +47,7 @@ export default function PhotoBooth({ image }: { image: string | null }) {
               setCopying(true);
               va.track("copy image", {
                 image,
-                page: `https://spirals.vercel.app/t/${id}`,
+                page: `https://octoart.vercel.app/t/${id}`,
               });
               fetch(image, {
                 headers: new Headers({
@@ -80,7 +80,7 @@ export default function PhotoBooth({ image }: { image: string | null }) {
               setDownloading(true);
               va.track("download image", {
                 image,
-                page: `https://spirals.vercel.app/t/${id}`,
+                page: `https://octoart.vercel.app/t/${id}`,
               });
               fetch(image, {
                 headers: new Headers({

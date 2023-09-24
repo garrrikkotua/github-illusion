@@ -3,7 +3,6 @@ import { Dispatch, SetStateAction, useState } from "react";
 
 const patterns = [
   "https://w3hp0wwfpdgpzwdt.public.blob.vercel-storage.com/kk49gtk-XpDOG1662fNHYhVAQu8q7qEFema4S9.png",
-  "https://w3hp0wwfpdgpzwdt.public.blob.vercel-storage.com/3gsU6nw-ijUCghBPCxaut883Ex0JENpEKh33Ox.png",
 ];
 
 export default function PatternPicker({
