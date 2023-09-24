@@ -26,9 +26,7 @@
 
 ## Introduction
 
-Spirals is an AI app for you to generate beautiful spiral art with one click. Powered by Vercel and Replicate.
-
-https://github.com/steven-tey/spirals/assets/28986134/9f0202d4-2a31-47a0-b43f-bdcd189743ef
+OctoArt is an AI app that allows to generate GitHub octocat art with one click. Promote open-source! More patterns coming soon 
 
 ## Tech Stack
 
