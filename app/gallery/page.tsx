@@ -1,11 +1,11 @@
-import { list } from "@vercel/blob";
-import PhotoBooth from "@/components/photo-booth";
-import Link from "next/link";
+// import { list } from "@vercel/blob";
+// import PhotoBooth from "@/components/photo-booth";
+// import Link from "next/link";
 
 export default async function Gallery() {
-  const { blobs } = await list({
-    limit: 100,
-  });
+  //   const { blobs } = await list({
+  //     limit: 9,
+  //   });
   return (
     <div className="z-10 w-full max-w-xl px-2.5 xl:px-0">
       <h1
@@ -14,7 +14,7 @@ export default async function Gallery() {
       >
         Gallery
       </h1>
-      <div className="grid grid-cols-3 gap-2">
+      {/* <div className="grid grid-cols-3 gap-2">
         {blobs.map((blob) => (
           <Link
             href={`/t/${blob.pathname.split(".png")[0]}`}
@@ -23,7 +23,7 @@ export default async function Gallery() {
             <PhotoBooth image={blob.url} />
           </Link>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
