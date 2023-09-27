@@ -26,7 +26,7 @@ export async function POST(req: Request) {
   const file = await fetch(output[0]).then((res) => res.blob());
 
   // upload & store in Vercel Blob
-  const { url } = await put(`${id}.png`, file, { access: "public" });
+  const { url } = await put(`${id}.png`, file, { access: "public", cacheControlMaxAge: 60 * 60 * 24 * 30 });
 
   await kv.hset(id, { image: url });
 
