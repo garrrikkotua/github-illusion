@@ -24,7 +24,7 @@
     "eslint-config-next": "13.4.19",
     "lucide-react": "^0.279.0",
     "nanoid": "^5.0.1",
-    "next": "canary",
+    "next": "13.5.4-canary.8",
     "postcss": "8.4.30",
     "promptmaker": "^1.1.0",
     "react": "18.2.0",

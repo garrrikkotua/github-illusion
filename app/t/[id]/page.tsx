@@ -56,6 +56,7 @@ export default async function Results({
       prompt={data.prompt}
       {...(data?.pattern && { pattern: data.pattern })}
       image={data.image || null}
+      newsletter
     />
   );
 }
