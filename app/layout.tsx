@@ -36,18 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(clash.variable, inter.variable)}>
         <Toaster />
-        <div className="sticky top-0 z-50 bg-black px-4 py-3 text-white">
-          <p className="z-50 text-center text-sm font-medium">
-            LogoPicture AI is live on Product Hunt!{" "}
-            <a
-              href="https://www.producthunt.com/posts/logopicture-ai"
-              className="z-50 inline-block underline"
-            >
-              Give us some love ❤️
-            </a>
-          </p>
-        </div>
-        <div className="fixed top-10 h-screen w-full bg-gradient-to-br from-purple-100 via-slate-50 to-violet-100" />
+        <div className="fixed top-0 h-screen w-full bg-gradient-to-br from-purple-100 via-slate-50 to-violet-100" />
 
         <div
           className={`fixed w-full ${
